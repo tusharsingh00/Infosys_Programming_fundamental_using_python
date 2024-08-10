@@ -35,11 +35,11 @@ def form_triangle(num1,num2,num3):
     failure = "Triangle can't formed"
     
     if  (num1 + num2 <= num3) or (num1 + num3 <= num2) or (num2 + num3 <= num1):
-        print(success)
-    else:
         print(failure)
+    else:
+        print(success)
     
-    return "return",success if (num1 + num2 <= num3) or (num1 + num3 <= num2) or (num2 + num3 <= num1) else failure
+    return success if (num1 + num2 <= num3) or (num1 + num3 <= num2) or (num2 + num3 <= num1) else failure
         
 # form_triangle(9,3,3)
-print(form_triangle(9,18,9))
+print(form_triangle(1,7,3))
