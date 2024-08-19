@@ -16,7 +16,13 @@ True
 
 #lex_auth_0127135773590405121141
 
+#lex_auth_0127135773590405121141
+
 def bracket_pattern(input_str):
+    if input_str[0] in ")" or input_str[-1] in "(":
+           return False
+    
+    # Stack to keep track of opening brackets
     c = 0
     for i in input_str:
        
@@ -27,11 +33,9 @@ def bracket_pattern(input_str):
         
     return(c==0)
 
-
     
 input_str="(())("
 print(bracket_pattern(input_str))
-
 
 
 
