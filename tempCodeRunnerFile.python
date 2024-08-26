@@ -1,0 +1,244 @@
+
+# num = 5
+# while(--num):
+#     num = num -1
+#     print(num)
+
+# lang = {}
+
+# def addnew(lange):
+#     if lange in lang:
+#         lang[lange] += 1
+#     else:
+#         lang[lange] = 1
+        
+# addnew("php")
+# addnew("python")
+# # addnew("php")
+# addnew("ph")
+# addnew("perl")ṇ
+
+# print(len(lang))
+
+
+# dic = {"2323":"Ram", "4321": "Shan" }
+# print(4321 in dic)     # False
+# print("4321" in dic)   # TRUE
+
+# import re
+# Stmt = "The event starts in Jan"
+# print(re.split('"',Stmt))
+
+# a = "Python Program"
+# print(a.lstrip('P'))
+
+# Lang = ['perl', 'python', 'ruby', 'tcl']  # Line 1: This is a list.
+# Lang[0] = 'php'  # Line 2: This is valid. Lists are mutable, so you can change their elements.
+# Lang = ('perl', 'python', 'ruby', 'tcl')  # Line 3: This is a tuple.
+# Lang[1] = 'jython'  # Line 4: This will raise an error.
+
+
+# for i in 10,20,'string',30:
+#     print("I fetch ",i)
+
+# def  power(x,y):
+#     r = 1
+#     for i in range(y):
+#         #&blank
+#     return r 
+# print(power(3,4))
+
+# import re
+# a = "Mallaaavikaa"
+# print(re.sub('a{2}' , '*',a,1))
+
+# value = 100
+# def demo (value):
+#     value = value+1
+#     return value
+# print(demo(200),"#",value)
+
+# import re 
+# name = 'Ram_06at1982@gmail.com'
+# print(re.findall('[\w]+',name))
+
+
+# lis = [1,3,5,7,9,11,13,17,19,23,29]
+# op = range(4,len(lis),2)
+# # print(op)
+
+
+# import re
+# sum = 0 
+# pattern = 'py'
+# if re.match(pattern, 'python.txt'):
+#     sum += 1
+# if re.match(pattern,'text.py'):
+#     sum += 2
+# if re.match(pattern, 'herepyfile'):
+#     sum += 4
+# if re.match(pattern,'numpy'):
+#     sum += 8
+
+# print(sum)
+    
+    
+# a = "Adventurous journey During trave"
+# b = a.splitlines(False)
+# print(a.replace(" "," ",3))
+# print(b)
+
+# Score = [50,50,0,2,190,105,41,11,27,0,4]
+# print(Score.count(0))
+
+# lis =[10,20,30,40,50,60,70,80] 
+# lis.pop(6) 
+# print(lis[::--2])
+
+# import math
+# print(math.floor(5.7))
+
+# var = 'python'
+# print(var+'entered')
+
+# name = ["stefan","Damon","Elena","Katherine"]
+# print(name[-2][2])
+
+# num = [1,2,43,564,457,245,54,3,3,45,64]
+# sorted(num)
+# print(num)
+
+# company = "infosys" + \
+#           "31" + \
+#            "Limited"
+# print(company)
+
+# ab = "numpy"
+# ab + 5
+# print(ab)
+
+# palindrome = "malayalam"
+# print(palindrome.strip("mal"))
+
+# basicsalary = 55000.56
+# DA = 5000.34
+# print("My salary is %d" %(basicsalary+DA))
+
+# x = [40,876,3553,22]
+# y = x[:]
+# y.sort()
+
+# print(y[2],x[2])
+
+# tech = "python"
+# print(tech*len(tech))
+
+# temp = 10
+# print(temp--)
+
+# x = "abcdef"
+# i = "a"
+# while i in x:
+#     x = x[:-1]
+#     print(i,end="")
+    
+# import re
+# Stmt = "The event starts in Jan"
+# print(re.split('"',Stmt))
+
+# def add(num1=0, num2=0):
+#     return(num1+num2)
+# print(add(3))
+
+# import re
+# message = "I thoughtt a great thought today"
+# print(re.sub('thought','jump',message))
+
+# for i in range(10):
+#     if i ==5:
+#         break
+#     else:
+#         print(i,end="")
+# else:
+#     print("End")
+
+# dic = {"2323":"Ram","4321":"sham","99989":"Rony"}
+# if 2323 not in dic:
+#     print("in if block")
+# elif "4321" not in dic:
+#     print("in elif block")
+# else:
+#     print("in else block")
+
+# try:
+#     print(10*(1/10))
+#     print(203/0)
+#     print(var*3)
+# except(ZeroDivisionError,NameError):
+#     print("Error")
+
+# def add_skill(*param2):
+#     print((param2))
+# add_skill('Ruby','Python','Perl','Php')
+
+
+# xyz = ('apple','applets','app')
+# abc = "Assassination"
+# sub = 's'
+# print(abc.count(sub,1,len(max(xyz))))
+
+
+# name1 = ['demonic', 'ben','charlie','Damon']
+# name2 = name1
+# name3 = name1[:]
+# name2[0] = 'Stefan'
+# name3[1] = 'John'
+# sum= 0
+# for i in (name1,name2,name3):
+#     if i[0] == 'Stefan':
+#         sum += 1
+#     if i[1] == 'John':
+#         sum += 10
+# print(sum)
+
+# xyz = ('apple','applets','app')
+# abc = "Assassination"
+# print(abc.replace('s','S',len(min(xyz))))
+
+
+
+# import re 
+
+# print(re.findall('1.21'"11012101131014015016017018019"))
+
+# var = 02
+# print(var+20)
+
+
+# print("Stefan Salvatore"[5:])
+
+# lis =[10,20,30,40,50,60,70,80] 
+# lis.pop(6) 
+# print(lis[:-2])
+
+
+# lis = [1,3,5,7]
+# for a in (lis[::2]):
+#     str = "Infosys"
+#     print(str[a])
+
+# import re
+# a = "python Knowledge in automating unit testing using pyunit"
+# print(a)
+# print(re.sub('py|ti','*',a))
+
+# xyz = ('apple','applets','app','ap')
+# abc = "Semesters"
+# sub = 'e'
+# print(abc.find(sub,len(min(xyz)) , len(max(xyz))))
+
+
+a = " Adventurous Journey during Travelling "
+b = a.splitlines(False)
+print(a.replace(" "," ",3))
+print(b)
